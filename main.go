@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 
-	"github.com/sjlleo/netflix-verify/printer"
-	"github.com/sjlleo/netflix-verify/verify"
+	"github.com/Peters-Pans/netflix-verify-main/printer"
+	"github.com/Peters-Pans/netflix-verify-main/verify"
 )
 
 var custom = flag.String("custom", "", "自定义测试NF影片ID\n绝命毒师的ID是70143836")
