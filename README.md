@@ -16,7 +16,4 @@
 5. **地域解锁** - NF在不同的地区可以看的片源都是不同的，有些影片只能在特定区观看
 
 一般来说，需要能看非自制剧才算真正意义上的NF解锁
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/sjlleo/netflix-verify.svg)](https://starchart.cc/sjlleo/netflix-verify)
 
