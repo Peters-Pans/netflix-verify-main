@@ -18,7 +18,6 @@ const (
 )
 
 func Print(fr verify.FinalResult) {
-	printResult("4", fr.Res[1])
 	fmt.Println()
 }
 
