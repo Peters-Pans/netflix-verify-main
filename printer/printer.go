@@ -17,10 +17,9 @@ const (
 	RESET_PREFIX  = "\033[0m"
 )
 
-func Print(fr verify.FinalResult) {
+func {
 	printResult("4", fr.Res[1])
 	fmt.Println()
-	printResult("6", fr.Res[2])
 }
 
 
@@ -36,10 +35,10 @@ func printResult(ipVersion string, vResponse verify.VerifyResponse) {
 		fmt.Println("Netflix在您的出口IP所在的国家提供服务，但是您的IP疑似代理，无法正常使用服务" )
 		fmt.Println("NF所识别的IP地域信息：" + vResponse.CountryName )
 	case code == 1:
-		fmt.Println("您的出口IP可以使用Netflix，但仅可看Netflix自制剧" )
+		fmt.Println("仅可看Netflix自制剧" )
 		fmt.Println("NF所识别的IP地域信息：" + vResponse.CountryName )
 	case code == 2:
-		fmt.Println("您的出口IP完整解锁Netflix，支持非自制剧的观看" )
+		fmt.Println("完整解锁Netflix非自制剧" )
 		fmt.Println("NF所识别的IP地域信息：" + vResponse.CountryName )
 	case code == 3:
 		fmt.Println("您的出口IP无法观看此电影" )
