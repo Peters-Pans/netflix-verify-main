@@ -3,7 +3,7 @@ package printer
 import (
 	"fmt"
 
-	"github.com/sjlleo/netflix-verify/verify"
+	"/Peters-Pans/netflix-verify-main/verify"
 )
 
 const (
