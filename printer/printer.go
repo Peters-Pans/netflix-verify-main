@@ -18,13 +18,13 @@ const (
 )
 
 func Print(fr verify.FinalResult) {
+	printResult("4", fr.Res[1])
 	fmt.Println()
 }
 
 
 
 func printResult(ipVersion string, vResponse verify.VerifyResponse) {
-	fmt.Printf("[IPv%s]\n", ipVersion)
 	switch code := vResponse.StatusCode; {
 	case code < -1:
 		fmt.Println("您的网络没有正常配置IPv" + ipVersion)
