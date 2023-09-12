@@ -17,7 +17,7 @@ const (
 	RESET_PREFIX  = "\033[0m"
 )
 
-func {
+func Print(fr verify.FinalResult) {
 	printResult("4", fr.Res[1])
 	fmt.Println()
 }
